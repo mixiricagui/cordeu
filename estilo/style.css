@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+
+
+   
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:'Source Sans Pro', sem serifa ;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 10vh;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: cursive, bold;
+    font-size: 4.5vh;
+}
+
+section.normal {
+    
+background-color: white;
+color: black;
+}
+
+section.imagen {
+background-color: blueviolet;
+color: white;
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.377);
+background-attachment: fixed;
+}
+
+section.imagen > p{
+    background-color: rgba(0, 0, 0, 0.507);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section#img01{
+background-image: url('../imagens/background001.jpg');
+background-position: right center;
+background-size: cover;
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
